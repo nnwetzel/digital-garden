@@ -1,14 +1,14 @@
 
 "use client";
 import Navbar from "../components/Navbar";
-import MainLayout from "../components/MainLayout";
+import PageLayout from "../components/page-layout";
 import React from "react";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <MainLayout headline="Hi there, I'm Nat">
+      <PageLayout headline="Hi there, I'm Nat">
         <p>
           I'm a Software Engineer passionate about <em>blockchain</em>, <em>venture capital</em>, and <em>impact at scale</em>.<br />
         </p>
@@ -31,7 +31,7 @@ export default function Home() {
         <ul className="dash" style={{ textAlign: 'left', display: 'inline-block' }}>
           <li>To be determined</li>
         </ul>
-      </MainLayout>
+      </PageLayout>
     </>
   );
 }

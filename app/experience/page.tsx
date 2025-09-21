@@ -1,14 +1,14 @@
 
 "use client";
 import Navbar from "../../components/Navbar";
-import MainLayout from "../../components/MainLayout";
+import PageLayout from "../../components/page-layout";
 import React from "react";
 
 export default function Experience() {
   return (
     <>
       <Navbar />
-      <MainLayout headline="Experience">
+      <PageLayout headline="Experience">
         <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5em', fontFamily: 'Georgia, serif', fontWeight: 400, color: '#222', width: '100%' }}>
           {/* Amazon 2025 */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr auto', alignItems: 'flex-start', width: '100%' }}>
@@ -62,7 +62,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
-      </MainLayout>
+      </PageLayout>
   </>
   );
 }
