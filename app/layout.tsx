@@ -10,7 +10,7 @@ const radio = Radio_Canada({
 
 export const metadata: Metadata = {
   title: "Nat",
-  description: "Personal website of Nat Wetzel, Software Engineer passionate about blockchain, venture capital, and impact at scale.",
+  description: "Personal website of Nat Wetzel, Software Engineer passionate about artificial intelligence, venture capital, and impact at scale.",
   icons: {
     icon: "/favicon.ico",
   },
