@@ -23,7 +23,7 @@ export default function Experience() {
                   <span style={{ color: '#f59e42', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>Java</span>
               </div>
               <div style={{ fontSize: '1.08em', color: '#222', fontFamily: 'Georgia, serif', marginBottom: '0.5em', gridColumn: '1 / span 2', width: '100%' }}>
-                Developed a service in <span style={{ color: '#f59e42', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>Java</span> validating 10M+ transactions/month, scaling accuracy across $10B+ in accounts receivables traffic.
+                Developed a <span style={{ color: '#f59e42', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>Java</span> service validating 10M+ transactions/month at Amazon's receivables API entrypoint. Eliminated invalid custom billing attributes ensuring accuracy at scale.
               </div>
             </div>
           </div>

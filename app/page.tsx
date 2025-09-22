@@ -22,10 +22,16 @@ export default function Home() {
         <div style={{ height: "1.5rem" }} />
         <h3 style={{ fontWeight: 700, fontSize: '1.05em', marginBottom: '0.5em' }}>Right now, I am</h3>
         <ul className="dash" style={{ textAlign: 'left', display: 'inline-block' }}>
-          <li>Working on a x64 Compiler in <span style={{ color: '#e53935', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>C++</span></li>
+          <li>Working on a <a href="https://github.com/nnwetzel/x64-compiler">x64 Compiler</a> in <span style={{ color: '#e53935', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>C++</span></li>
           <li>Deepening my knowledge in Computer Vision, Computer Systems, and <span style={{ color: '#e53935', fontWeight: 500, fontFamily: 'Georgia, serif', fontSize: '1em', lineHeight: '1' }}>C++</span></li>
           <li>Reading <a href="https://www.goodreads.com/book/show/4406.East_of_Eden">East of Eden</a></li>
+          <li>Reading <a href="https://www.goodreads.com/book/show/17303566-the-climber-vol-1">The Climber</a></li>
+        </ul>
+        <div style={{ height: "1.5rem" }} />
+        <h3 style={{ fontWeight: 700, fontSize: '1.05em', marginBottom: '0.5em' }}>Things I like</h3>
+        <ul className="dash" style={{ textAlign: 'left', display: 'inline-block' }}>
           <li>Exploring letters on <a href="https://we-b.site/">(we)bsite</a></li>
+          <li>Exploring stocks with <a href="https://github.com/TauricResearch/TradingAgents">TradingAgents</a></li>
         </ul>
         <div style={{ height: "1.5rem" }} />
         <h3 style={{ fontWeight: 700, fontSize: '1.05em', marginBottom: '0.5em' }}>Soon, I will be</h3>
