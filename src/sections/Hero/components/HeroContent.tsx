@@ -5,11 +5,6 @@ export const HeroContent = () => {
         Hi, I'm Nat. I'm currently working at Zoox. Currently reading{" "}
         <em>The Count of Monte Cristo</em>.
       </p>
-      <img
-        src="/zoox.jpeg"
-        alt="Zoox robotaxi"
-        className="box-border caret-transparent w-full max-w-md rounded mt-4"
-      />
       <p className="box-border caret-transparent mt-4">
         Feel free to reach me at{" "}
         <a

@@ -81,6 +81,30 @@ const faceRetrieval: Project = {
   image: "/fast_face_retrieval.jpg",
 };
 
+const marioRlAgent: Project = {
+  title: "Mario RL Agent",
+  href: "https://github.com/nnwetzel/mario-rl-agent",
+  tags: ["Reinforcement Learning", "DQN", "PPO", "Python"],
+  description: (
+    <>
+      DQN and PPO agents trained from scratch to beat Super Mario Bros. World 1-1, with custom frame-stacking wrappers, checkpointing, and an evaluation pipeline comparing reward and progress across runs.
+    </>
+  ),
+  image: "/mario_rl_agent.jpg",
+};
+
+const x64Compiler: Project = {
+  title: "x64 Compiler (Mint)",
+  href: "https://github.com/nnwetzel/x64-compiler",
+  tags: ["Compilers", "x86-64", "C++"],
+  description: (
+    <>
+      A compiler for Mint, a small expression-oriented language, translating source directly to x86-64 assembly through a custom lexer, code generator, and toolchain.
+    </>
+  ),
+  image: "/x64_compiler.png",
+};
+
 export const ProjectsPage = () => {
   return (
     <PageLayout>
@@ -91,6 +115,8 @@ export const ProjectsPage = () => {
 
         <ProjectEntry project={ndviCompare} />
         <ProjectEntry project={faceRetrieval} />
+        <ProjectEntry project={marioRlAgent} />
+        <ProjectEntry project={x64Compiler} />
       </div>
     </PageLayout>
   );
