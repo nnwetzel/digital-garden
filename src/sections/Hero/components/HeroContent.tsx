@@ -2,17 +2,21 @@ export const HeroContent = () => {
   return (
     <div className="text-lg items-start box-border caret-transparent h-full leading-7 w-full mt-5 font-et_book">
       <p className="box-border caret-transparent">
-        Hi, my name is Nat and I'm a third year CS student at Northeastern University.
-        I'm interested in financial technology, infrastructure, and building software for the physical world.
-        Previously, I spent my summer at Amazon where I developed a Java service validating 10M+ transactions/month at Amazon's account receivables API entrypoint.{" "}
+        Hi, I'm Nat. I'm currently working at Zoox. Currently reading{" "}
+        <em>The Count of Monte Cristo</em>.
       </p>
+      <img
+        src="/zoox.jpeg"
+        alt="Zoox robotaxi"
+        className="box-border caret-transparent w-full max-w-md rounded mt-4"
+      />
       <p className="box-border caret-transparent mt-4">
         Feel free to reach me at{" "}
         <a
-          href="mailto:nnwetzel@icloud.com"
+          href="mailto:wetzel.na@northeastern.edu"
           className="box-border caret-transparent underline"
         >
-          nnwetzel@icloud.com
+          wetzel.na@northeastern.edu
         </a>
         .
       </p>
